@@ -140,47 +140,35 @@ export default function Content() {
   }
   function loadExample() {
     reset();
-    setFirstName("SASHA");
+    setFirstName("Dharma");
 
     setLastName("WAGNER");
     setTitle("DIGITAL MARKETING ANALYST");
-    setEmail("sashawagner@email.com");
-    setAddress("Saint Paul, MN");
-    setPhoneNumber("(123) 456-7890");
+    setEmail("dharmeshdv@gmail.com");
+    setAddress("Virar sn");
+    setPhoneNumber("1122 33 44");
     const experience1 = {
       id: uuidv4(),
-      position: "Digital Marketing Analyst Intern",
-      company: "Amazon",
+      position: "Mern Stack Intern",
+      company: "CS",
 
       start: "Current",
-      end: "April 2021",
-      desc: `Created A/B testing plan for Facebook ad copy, leading to an
-      improvement in ROI of 18%.
-      Built key reports for executive team around KPIs, such as
-      marketing spend, new leads, revenue generated, and ROI
-      Oversaw the creation of the blog for SEO purposes, which grew
-from 500 to 5,000 monthly organic visitors
-
-Interviewed clients to understand their product positioning to
-incorporate into ad copy, resulting in client satisfaction of 96%
- Designed weekly email campaigns to target potential
-subscribers, increasing subscriptions by 12%
- Gathered data and insights, and discussed trends with team of 3
-other interns and 4 analysts to set new goals`,
+      end: "April 2023",
+      desc: `This repository is a MERN stack web application
+       example that showcases the integration of
+        MongoDB, Express.js, React, and Node.js to create a 
+        full-fledged web application. The key components and 
+        features `,
     };
 
     const experience2 = {
       id: uuidv4(),
-      position: "Recruiting Intern",
-      company: "Notarize",
+      position: "Intern",
+      company: "Command",
 
       start: "August 2020",
       end: "April 2021",
-      desc: `Proactively sourced candidates using LinkedIn Recruiter for
-      technical roles, including back-end software engineering and data
-      engineering roles, leading to 4 full-time hires
-      Iterated on messaging to qualified candidates for given roles to
-      improve the response rate from 8% to 17%
+      desc: `
        Communicated with candidates across each step of the application
       process, and updated the status of each candidate in Greenhouse
        Coordinated with external recruiting agencies to assess the
@@ -192,9 +180,9 @@ other interns and 4 analysts to set new goals`,
       `,
     };
     const education2 = {
-      course: "B.S. in Marketing",
-      university: "University of St. Thomas",
-      start: `August 2018`,
+      course: "B.S. in Management",
+      university: "University of Virar",
+      start: `August 2020`,
       end: `May 2022`,
     };
 
